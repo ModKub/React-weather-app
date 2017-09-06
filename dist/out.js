@@ -28338,12 +28338,17 @@ var FiveDaysWeather = function (_React$Component) {
                             { className: 'dayinfo' },
                             _react2.default.createElement(
                                 'div',
+                                null,
+                                this.state.days[now.getDay() + 1]
+                            ),
+                            _react2.default.createElement(
+                                'div',
                                 { className: 'small-icon' },
                                 _react2.default.createElement('i', { className: this.props.changeIcon(this.state.meteoData.list[8]) })
                             ),
                             _react2.default.createElement(
                                 'div',
-                                null,
+                                { className: 'temperature' },
                                 'Midday: ',
                                 this.state.meteoData.list[8].main.temp,
                                 _react2.default.createElement(
@@ -28355,7 +28360,7 @@ var FiveDaysWeather = function (_React$Component) {
                             ),
                             _react2.default.createElement(
                                 'div',
-                                null,
+                                { className: 'temperature' },
                                 'Night: ',
                                 this.state.meteoData.list[11].main.temp,
                                 _react2.default.createElement(
@@ -28364,11 +28369,6 @@ var FiveDaysWeather = function (_React$Component) {
                                     'o'
                                 ),
                                 'C'
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                null,
-                                this.state.days[now.getDay() + 1]
                             )
                         ),
                         _react2.default.createElement(
@@ -28376,12 +28376,17 @@ var FiveDaysWeather = function (_React$Component) {
                             { className: 'dayinfo' },
                             _react2.default.createElement(
                                 'div',
+                                null,
+                                this.state.days[now.getDay() + 2]
+                            ),
+                            _react2.default.createElement(
+                                'div',
                                 { className: 'small-icon' },
                                 _react2.default.createElement('i', { className: this.props.changeIcon(this.state.meteoData.list[16]) })
                             ),
                             _react2.default.createElement(
                                 'div',
-                                null,
+                                { className: 'temperature' },
                                 'Midday: ',
                                 this.state.meteoData.list[16].main.temp,
                                 _react2.default.createElement(
@@ -28393,7 +28398,7 @@ var FiveDaysWeather = function (_React$Component) {
                             ),
                             _react2.default.createElement(
                                 'div',
-                                null,
+                                { className: 'temperature' },
                                 'Night: ',
                                 this.state.meteoData.list[19].main.temp,
                                 _react2.default.createElement(
@@ -28402,11 +28407,6 @@ var FiveDaysWeather = function (_React$Component) {
                                     'o'
                                 ),
                                 'C'
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                null,
-                                this.state.days[now.getDay() + 2]
                             )
                         ),
                         _react2.default.createElement(
@@ -28414,12 +28414,17 @@ var FiveDaysWeather = function (_React$Component) {
                             { className: 'dayinfo' },
                             _react2.default.createElement(
                                 'div',
+                                null,
+                                this.state.days[now.getDay() + 3]
+                            ),
+                            _react2.default.createElement(
+                                'div',
                                 { className: 'small-icon' },
                                 _react2.default.createElement('i', { className: this.props.changeIcon(this.state.meteoData.list[24]) })
                             ),
                             _react2.default.createElement(
                                 'div',
-                                null,
+                                { className: 'temperature' },
                                 'Midday: ',
                                 this.state.meteoData.list[24].main.temp,
                                 _react2.default.createElement(
@@ -28431,7 +28436,7 @@ var FiveDaysWeather = function (_React$Component) {
                             ),
                             _react2.default.createElement(
                                 'div',
-                                null,
+                                { className: 'temperature' },
                                 'Night: ',
                                 this.state.meteoData.list[27].main.temp,
                                 _react2.default.createElement(
@@ -28440,11 +28445,6 @@ var FiveDaysWeather = function (_React$Component) {
                                     'o'
                                 ),
                                 'C'
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                null,
-                                this.state.days[now.getDay() + 3]
                             )
                         ),
                         _react2.default.createElement(
@@ -28452,12 +28452,17 @@ var FiveDaysWeather = function (_React$Component) {
                             { className: 'dayinfo' },
                             _react2.default.createElement(
                                 'div',
+                                null,
+                                this.state.days[now.getDay() + 4]
+                            ),
+                            _react2.default.createElement(
+                                'div',
                                 { className: 'small-icon' },
                                 _react2.default.createElement('i', { className: this.props.changeIcon(this.state.meteoData.list[32]) })
                             ),
                             _react2.default.createElement(
                                 'div',
-                                null,
+                                { className: 'temperature' },
                                 'Midday: ',
                                 this.state.meteoData.list[32].main.temp,
                                 _react2.default.createElement(
@@ -28469,7 +28474,7 @@ var FiveDaysWeather = function (_React$Component) {
                             ),
                             _react2.default.createElement(
                                 'div',
-                                null,
+                                { className: 'temperature' },
                                 'Night: ',
                                 this.state.meteoData.list[35].main.temp,
                                 _react2.default.createElement(
@@ -28478,11 +28483,6 @@ var FiveDaysWeather = function (_React$Component) {
                                     'o'
                                 ),
                                 'C'
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                null,
-                                this.state.days[now.getDay() + 4]
                             )
                         )
                     )

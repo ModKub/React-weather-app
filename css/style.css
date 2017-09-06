@@ -157,7 +157,12 @@ body {
 }
 
 .small-icon {
-    font-size: 80px
+    font-size: 80px;
+    margin-top: 7px;
+}
+
+.temperature {
+    font-size: 25px;
 }
 
 

@@ -36,36 +36,40 @@ class FiveDaysWeather extends React.Component{
                     <div className="container">
                         <h2 className="visuallyhidden">5 day weather</h2>
                         <div className="dayinfo">
+                            <div>{this.state.days[ now.getDay()+1 ]}</div>
                             <div className='small-icon'>
                                 <i className={this.props.changeIcon(this.state.meteoData.list[8])}></i>
                             </div>
-                            <div>Midday: {this.state.meteoData.list[8].main.temp}<sup>o</sup>C</div>
-                            <div>Night: {this.state.meteoData.list[11].main.temp}<sup>o</sup>C</div>
-                            <div>{this.state.days[ now.getDay()+1 ]}</div>
+                            <div className="temperature">Midday: {this.state.meteoData.list[8].main.temp}<sup>o</sup>C</div>
+                            <div className="temperature">Night: {this.state.meteoData.list[11].main.temp}<sup>o</sup>C</div>
+
                         </div>
                         <div className="dayinfo">
+                            <div>{this.state.days[ now.getDay()+2 ]}</div>
                             <div className='small-icon'>
                                 <i className={this.props.changeIcon(this.state.meteoData.list[16])}></i>
                             </div>
-                            <div>Midday: {this.state.meteoData.list[16].main.temp}<sup>o</sup>C</div>
-                            <div>Night: {this.state.meteoData.list[19].main.temp}<sup>o</sup>C</div>
-                            <div>{this.state.days[ now.getDay()+2 ]}</div>
+                            <div className="temperature">Midday: {this.state.meteoData.list[16].main.temp}<sup>o</sup>C</div>
+                            <div className="temperature">Night: {this.state.meteoData.list[19].main.temp}<sup>o</sup>C</div>
+
                         </div>
                         <div className="dayinfo">
+                            <div>{this.state.days[ now.getDay()+3 ]}</div>
                             <div className='small-icon'>
                                 <i className={this.props.changeIcon(this.state.meteoData.list[24])}></i>
                             </div>
-                            <div>Midday: {this.state.meteoData.list[24].main.temp}<sup>o</sup>C</div>
-                            <div>Night: {this.state.meteoData.list[27].main.temp}<sup>o</sup>C</div>
-                            <div>{this.state.days[ now.getDay()+3 ]}</div>
+                            <div className="temperature">Midday: {this.state.meteoData.list[24].main.temp}<sup>o</sup>C</div>
+                            <div className="temperature">Night: {this.state.meteoData.list[27].main.temp}<sup>o</sup>C</div>
+
                         </div>
                         <div className="dayinfo">
+                            <div>{this.state.days[ now.getDay()+4 ]}</div>
                             <div className='small-icon'>
                                 <i className={this.props.changeIcon(this.state.meteoData.list[32])}></i>
                             </div>
-                            <div>Midday: {this.state.meteoData.list[32].main.temp}<sup>o</sup>C</div>
-                            <div>Night: {this.state.meteoData.list[35].main.temp}<sup>o</sup>C</div>
-                            <div>{this.state.days[ now.getDay()+4 ]}</div>
+                            <div className="temperature">Midday: {this.state.meteoData.list[32].main.temp}<sup>o</sup>C</div>
+                            <div className="temperature">Night: {this.state.meteoData.list[35].main.temp}<sup>o</sup>C</div>
+
                         </div>
                     </div>
                 </section>
