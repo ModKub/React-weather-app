@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     {this.props.children}
                     <footer className="main-footer">
                         <div className="container-footer">
-                            <div className="author-info">author: Jakub Modzelewski</div>
+                            <div className="author-info">author: ModKub</div>
                             <div className="media">
                                 <a href="https://github.com/ModKub">GITHUB</a>
                                 <a href="https://www.linkedin.com/in/jakub-modzelewski/">LINKEDIN</a>
