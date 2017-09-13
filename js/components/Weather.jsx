@@ -30,11 +30,7 @@ class Weather extends React.Component {
         let icon = weatherIcons[code].icon;
         let today = new Date();
         let hour = today.getHours();
-         if(hour > 6 && hour < 20) {
-            icon = 'day-' + icon;
-         } else {
-            icon = 'night-' + icon;
-         }
+        
               icon = prefix + icon;
               return icon;
     }
